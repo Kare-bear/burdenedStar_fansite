@@ -34,7 +34,7 @@ class App extends Component {
             </ul>
           </nav>
           <div>
-            <h1>BURDENEDSTAR1</h1>
+            <h1>BURDENEDSTAR 1</h1>
               <div className="App-tagline">
                 <div><p>Gamers don't die, they <span className="App-rage">RAGE</span> quit!</p></div>                
               </div>
