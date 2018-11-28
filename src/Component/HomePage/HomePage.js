@@ -4,16 +4,13 @@ import React, { Component } from 'react';
 import './HomePage.css';
 
 
-export default class HomePage extends Component{
+export default function HomePage(props){
     
-
-    
-
-    render(){
         return(
             <div>
-                
+                <div>
+               <h1>this is a test!!! </h1>
+               </div>
             </div>
         );
     }
-}

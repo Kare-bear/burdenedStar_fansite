@@ -6,6 +6,7 @@ import insta from "./fanpage_images/instagram.png";
 import facebook from "./fanpage_images/facebook.png";
 import twitter from "./fanpage_images/twitter.png";
 
+import Home from "./Component/HomePage/HomePage";
 
 import Routes from "./routes";
 
@@ -18,6 +19,9 @@ class App extends Component {
     };
   }
   render() {
+
+    var HomePage ={Home};
+
     return (
       <div className="App">        
         <header>
@@ -70,11 +74,15 @@ class App extends Component {
           </div>
         </header>
         <div className="App-main-container">
-          {/* <img src="http://worldartsme.com/images/construction-tape-clipart-1.jpg" className="Tape" alt="tape"/> */}
+         
           <div>
             <h2>BURDENEDSTAR1</h2>
           </div>
-          <Routes />
+            <div>
+              {HomePage}
+            </div>
+         
+          {/* <Routes /> */}
         </div>
       </div>
     );
