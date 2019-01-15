@@ -6,9 +6,9 @@ import insta from "./fanpage_images/instagram.png";
 import facebook from "./fanpage_images/facebook.png";
 import twitter from "./fanpage_images/twitter.png";
 
-import Home from "./Component/HomePage/HomePage";
+import Homepage from "./Component/HomePage/HomePage"
 
-import Routes from "./routes";
+// import Routes from "./routes";
 
 class App extends Component {
   constructor(props) {
@@ -19,18 +19,10 @@ class App extends Component {
     };
   }
   render() {
-
-    var HomePage ={Home};
-
     return (
       <div className="App">        
         <header>
         <div className="App-header">
-        {/* <video loop autoPlay className="App-header-video">
-          <source src="https://media.giphy.com/media/l1J3rGigrYfx8aKqI/giphy.mp4" type='video/mp4'/>
-          <source src="https://media.giphy.com/media/l1J3rGigrYfx8aKqI/giphy.mp4" type='video/ogg'/>
-          Your browser does not support the video.
-        </video> */}
           <nav>
             <ul className="App-nav-list">
               <li>Home</li>
@@ -39,7 +31,7 @@ class App extends Component {
             </ul>
           </nav>
           <div>
-            <h1>BURDENEDSTAR 1</h1>
+            <h1>BURDENEDSTAR 1 FanSite</h1>
             <div className="App-tagline">
               <div>
                 <p>
@@ -51,38 +43,37 @@ class App extends Component {
           </div>
           <div className="App-social-links">
             <div>
-              <a href="https://www.youtube.com/channel/UCXhSilRTf8KjI-YUBQDOt6g">
+              <a href="https://www.youtube.com/channel/UCXhSilRTf8KjI-YUBQDOt6g" target="_blank">
                 <img src={youtube} alt="youtube logo" height="65vh" />
               </a>
             </div>
             <div>
-              <a href="https://www.instagram.com/burdenedstar1/?hl=en">
+              <a href="https://www.instagram.com/burdenedstar1/?hl=en" target="_blank">
                 <img src={insta} alt="instagram logo" height="60vh" />
               </a>
             </div>
             <div>
-              <a href="https://www.facebook.com/BurdenedStar">
+              <a href="https://www.facebook.com/BurdenedStar" target="_blank">
                 <img src={facebook} alt="facebook logo" height="65vh" />
               </a>
             </div>
             <div>
-              <a href="https://twitter.com/burdenedStar1">
+              <a href="https://twitter.com/burdenedStar1" target="_blank">
                 <img src={twitter} alt="twitter logo" height="60vh" />
               </a>
             </div>
           </div>
           </div>
         </header>
-        <div className="App-main-container">
-         
+        <div className="App-main-container">         
           <div>
-            <h2>BURDENEDSTAR1</h2>
+            <h2 className="App-main-title">BURDENEDSTAR1</h2>
           </div>
             <div>
-              {HomePage}
+              
             </div>
          
-          {/* <Routes /> */}
+         
         </div>
       </div>
     );
