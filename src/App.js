@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
+import { Link } from 'react-router-dom';
 
 import youtube from "./fanpage_images/youtube.png";
 import insta from "./fanpage_images/instagram.png";
 import facebook from "./fanpage_images/facebook.png";
 import twitter from "./fanpage_images/twitter.png";
+
 
 
 import Routes from "./routes";
@@ -22,15 +24,10 @@ class App extends Component {
       <div className="App">        
         <header>
         <div className="App-header">
-        {/* <video loop autoPlay className="App-header-video">
-          <source src="https://media.giphy.com/media/l1J3rGigrYfx8aKqI/giphy.mp4" type='video/mp4'/>
-          <source src="https://media.giphy.com/media/l1J3rGigrYfx8aKqI/giphy.mp4" type='video/ogg'/>
-          Your browser does not support the video.
-        </video> */}
           <nav>
             <ul className="App-nav-list">
-              <li>Home</li>
-              <li>About</li>
+            <Link to = "/"><li>Home</li></Link>
+            <Link to = "/about"><li>About</li> </Link>
               <li>Store(coming soon)</li>
             </ul>
           </nav>
@@ -72,8 +69,9 @@ class App extends Component {
         <div className="App-main-container">
           {/* <img src="http://worldartsme.com/images/construction-tape-clipart-1.jpg" className="Tape" alt="tape"/> */}
           <div>
-            <h2>BURDENEDSTAR1</h2>
           </div>
+          
+          
           <Routes />
         </div>
       </div>
