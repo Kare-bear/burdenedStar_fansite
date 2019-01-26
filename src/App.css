@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
 }
 
 .App-header{
@@ -34,19 +36,34 @@
 .App-social-links{
   display: flex;
   justify-content: space-evenly;
+  padding: 5px;
 }
 
-
-.App-title {
-  font-size: 1.5em;
+.App-social-links div:hover{
+  opacity: 1;
 }
 
-.App-intro {
-  font-size: large;
+.App-social-links div{
+  border: 1.5px rgb(1, 45, 87) solid;
+  box-shadow:  rgb(111, 198, 255) 0px 2px 10px 2px;
+  border-radius: 20%;
+  background-color: rgb(1, 45, 87);
+  opacity: .5;
 }
 
 .App-main-container{
-  height: 75vh;
+  
+}
+
+.App-main-title{
+  
+  font-family: 'Orbitron', sans-serif;
+  font-size: 350px;
+  color: white;
+  position: relative;
+  bottom: 150px;
+  opacity: .25;
+  animation: slide 15s infinite linear;
 }
 
 .App-main-title{

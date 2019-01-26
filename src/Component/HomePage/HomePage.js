@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
-
 import './HomePage.css';
 
 
-export default class HomePage extends Component{
-    
-
-    
-
+class Homepage extends Component{
     render(){
         return(
+        <div>
+            
             <div>
                 Upcoming projects
                 picture gallery
                 cosplay
             </div>
-        );
+        </div>
+        )
     }
 }
+export default Homepage;

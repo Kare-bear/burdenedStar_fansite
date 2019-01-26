@@ -9,6 +9,7 @@ import twitter from "./fanpage_images/twitter.png";
 
 
 
+
 import Routes from "./routes";
 
 class App extends Component {
@@ -67,14 +68,16 @@ class App extends Component {
             </div>
           </header>
           
-          <div className="App-main-container">
-            <div>
-              <div>
-                <h2 className="App-main-title">BURDENEDSTAR1</h2>
-                <Routes />
-              </div>
-            </div>        
+        <div className="App-main-container">         
+          <div>
+            <h2 className="App-main-title">BURDENEDSTAR1</h2>
           </div>
+            <div>
+              <Routes/>
+            </div>
+         
+         
+        </div>
       </div>
     );
   }
