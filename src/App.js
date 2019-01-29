@@ -15,11 +15,8 @@ import Routes from "./routes";
 class App extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-     
-    };
   }
+
   render() {
     return (
       <div className="App">        
@@ -75,7 +72,9 @@ class App extends Component {
             <div>
               <Routes/>
             </div>
-         
+            <div>
+            <Link to="/testpage"><h1>TEST COMPONENT</h1></Link>
+            </div>
          
         </div>
       </div>

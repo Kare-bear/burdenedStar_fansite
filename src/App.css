@@ -12,7 +12,25 @@
   color: white;
 }
 
+a:link{
+  color:White;
+  text-decoration: none;
+}
+
+a:visited{
+  color:rgb(155, 153, 153);
+  text-decoration: none;
+}
+
+a:hover{
+  color:red;
+  text-decoration: none;
+}
+
+
+
 .App-nav-list {
+  text-decoration: none;
   list-style-type: none;
   display: flex;
   justify-content: space-around;  
@@ -82,8 +100,8 @@ body{
   background-image: url(https://lh3.googleusercontent.com/GvOjB7dWmlDhc0ZJCplGMVdi7xdWPu7QKv85MJ0dHjsOZyMiN9GRnMDoF_GZ4-d5zmAZb74ci1MeTlBdJNgsesB9hKUwy3nhrgRy0x8lJs0u2vjJXbq0enLv2AqvfthGfg6v6LCxcijMjYpAWDDVFK25tZUgP1yiSebeq8mUcd0IjduZ00Xm3a2_IpbPyeOqlfsuvtgTBE0PhL5TOWM11Il6RYJTd_siDkIUUfSIpX9We0wVi5KUukGWgU5LFzazGCex5zdVKjV7aac7uyL4BjEcI4tpQel4P6VXV8h3pCjR1OAxA4r0n2YafuHJ2o_38DwIsuTlROR3SW4HLd5cP_-bA-uzdobsSkm30F7pz2_UGY6_Xe8irZGtIY7zC74cDGfZdKFlvl5_vRWS2GYHj14M-mURjRUmxfqG4BxjJMM1WOz4-ra2eRkTzmth0BcqvzSe_CWLGUdkh7ogEuQPpjnAHCAjJucMRIXUp4Dt8ejrSm-ZSmiualpLmOsG99kIPnR8_2hobkGhxfUZ5cgfNCI4w0tH5chL_dXNZrB6a1faINc8JrzilVDuzb2F9WbSfsOzPaSYKJmFHUfsHd6YlsUPW5y7gYQwmzhh9vhZ-ZsqL8WRzUapOtTkBse2UPAODD5uzrDsHvdcanzsX-Unb7ohow=w1680-h817-no);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 35vh;
-  
+  background-position-y: 45vh;
+  background-color: #222;
   height: 400px;
   position: relative;  
 }

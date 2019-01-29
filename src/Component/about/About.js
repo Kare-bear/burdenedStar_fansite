@@ -10,13 +10,33 @@ import scream from './vrscream.jpg';
 import doggo from './zeus.jpg';
 
 export default class About extends Component{
-    render(){
+
+        constructor(props){
+            super(props);
+        }
+
+    render(){       
         const params = {
+            effect: 'coverflow',
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true
+            },
+            pagination: {
+                el: '.swiper-pagination'
+            },        
             navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev'
-            }
-          }
+                      nextEl: '.swiper-button-next',
+                      prevEl: '.swiper-button-prev'
+                    }
+          };
   
 
         return(
@@ -35,8 +55,8 @@ export default class About extends Component{
                 </div>
                 <div>
                     <h3>PICTURE GALLERY</h3>
-                    <Swiper {...params}>
-                        <div><img src={smile} alt="smiles" height="auto"/></div>
+                    <Swiper {...params} className="swiper-container">
+                        <div><img src={smile} alt="smiles" height="auto" /></div>
                         <div><img src={banner} alt="banner" height="50vh" /></div>
                         <div><img src={green} alt="green" height="50vh" /></div>
                         <div><img src={scream} alt="scream" height="95vh" /></div>
