@@ -11,6 +11,15 @@ class TestPage extends Component{
         return(
         <div>
             This is TESTPAGE!!!! *kick to chest*
+            <div>
+            Still test needed something to push to github
+            </div>
+            <ul>
+                <li>this</li>
+                <li>is</li>
+                <li>a</li>
+                <li>test</li>
+            </ul>
         </div>
         )
     }
