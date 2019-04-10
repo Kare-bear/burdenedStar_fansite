@@ -112,3 +112,12 @@ a:hover{
 
 
 /* About.js styling  */
+.about-main-container{
+  color: rgb(56, 56, 56);
+  text-shadow: 2px 2px rgb(150, 150, 150);
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

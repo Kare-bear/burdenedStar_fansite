@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 import Banner from './Banner';
-import Gallery from '../PictureGallery/pictureGallery'
+
 
 class Homepage extends Component{
 
@@ -11,7 +11,7 @@ class Homepage extends Component{
         <div className='home-container'>
             <Banner/>
             <div>
-                <Gallery/>
+                
             </div>
         </div>
         )
