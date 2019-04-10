@@ -50,6 +50,7 @@ export default class About extends Component{
                     <article>
                     Butcher austin man braid four loko before they sold out disrupt pug occupy try-hard vegan master cleanse actually crucifix hashtag selfies. Migas ennui slow-carb art party, letterpress retro dreamcatcher truffaut before they sold out distillery hot chicken tbh man braid chillwave. Taiyaki farm-to-table polaroid, lumbersexual man bun godard whatever kinfolk gentrify. Hoodie hammock selvage affogato man braid etsy sustainable bitters lo-fi iceland stumptown art party gochujang disrupt vegan. Snackwave pop-up meh, distillery chartreuse everyday carry tilde heirloom vape truffaut cloud bread waistcoat whatever. Glossier flexitarian you probably haven't heard of them biodiesel tumeric copper mug farm-to-table blog succulents. Aesthetic hammock thundercats master cleanse, echo park meggings coloring book.
                     </article>
+                    <p>just adding to commit</p>
                 </div>
                 <div>
                     <h3>PICTURE GALLERY</h3>
