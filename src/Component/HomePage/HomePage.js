@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import './HomePage.css';
 
+
+import Banner from './Banner';
+import Gallery from '../PictureGallery/pictureGallery'
 
 class Homepage extends Component{
 
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return(
-        <div>
-            
-            {/* <div>
-                Upcoming projects
-                picture gallery
-                cosplay
-            </div> */}
+        <div className='home-container'>
+            <Banner/>
+            <div>
+                <Gallery/>
+            </div>
         </div>
         )
     }

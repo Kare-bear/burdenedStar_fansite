@@ -1,17 +1,4 @@
-.App {
-  text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  overflow: hidden;
-}
-
-.App-header{
-  height:30%;
-  background-color: #222;
-  width: 99.2%;
-  padding: 5px;
-  color: white;
-}
-
+/* link styling */
 a:link{
   color:White;
   text-decoration: none;
@@ -27,7 +14,22 @@ a:hover{
   text-decoration: none;
 }
 
+/* App.js styling */
 
+.App {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.App-header{
+  height:20%;
+  background-color: #222;
+  width: 99.2%;
+  padding: 5px;
+  color: white;
+}
 
 .App-nav-list {
   text-decoration: none;
@@ -69,10 +71,6 @@ a:hover{
   opacity: .5;
 }
 
-.App-main-container{
-  
-}
-
 .App-main-title{
   
   font-family: 'Orbitron', sans-serif;
@@ -84,29 +82,33 @@ a:hover{
   animation: slide 15s infinite linear;
 }
 
-.App-main-title{
+/* Banner.js styling */
+.floating-banner{
   
   font-family: 'Orbitron', sans-serif;
   font-size: 350px;
   color: white;
   position: relative;
-  bottom: 150px;
+  bottom: -35vh;
   opacity: .25;
-  animation: slide 15s infinite linear;
-  z-index: -1;
-}
-
-body{
-  background-image: url(https://lh3.googleusercontent.com/GvOjB7dWmlDhc0ZJCplGMVdi7xdWPu7QKv85MJ0dHjsOZyMiN9GRnMDoF_GZ4-d5zmAZb74ci1MeTlBdJNgsesB9hKUwy3nhrgRy0x8lJs0u2vjJXbq0enLv2AqvfthGfg6v6LCxcijMjYpAWDDVFK25tZUgP1yiSebeq8mUcd0IjduZ00Xm3a2_IpbPyeOqlfsuvtgTBE0PhL5TOWM11Il6RYJTd_siDkIUUfSIpX9We0wVi5KUukGWgU5LFzazGCex5zdVKjV7aac7uyL4BjEcI4tpQel4P6VXV8h3pCjR1OAxA4r0n2YafuHJ2o_38DwIsuTlROR3SW4HLd5cP_-bA-uzdobsSkm30F7pz2_UGY6_Xe8irZGtIY7zC74cDGfZdKFlvl5_vRWS2GYHj14M-mURjRUmxfqG4BxjJMM1WOz4-ra2eRkTzmth0BcqvzSe_CWLGUdkh7ogEuQPpjnAHCAjJucMRIXUp4Dt8ejrSm-ZSmiualpLmOsG99kIPnR8_2hobkGhxfUZ5cgfNCI4w0tH5chL_dXNZrB6a1faINc8JrzilVDuzb2F9WbSfsOzPaSYKJmFHUfsHd6YlsUPW5y7gYQwmzhh9vhZ-ZsqL8WRzUapOtTkBse2UPAODD5uzrDsHvdcanzsX-Unb7ohow=w1680-h817-no);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 45vh;
-  background-color: #222;
-  height: 400px;
-  position: relative;  
+  animation: slide 20s infinite linear;
 }
 
 @keyframes slide{
   from{left:100%;}
   to{left:-200%;}
 }
+
+/* Home.js styling */
+.home-container{
+  background-image: url(https://lh3.googleusercontent.com/GvOjB7dWmlDhc0ZJCplGMVdi7xdWPu7QKv85MJ0dHjsOZyMiN9GRnMDoF_GZ4-d5zmAZb74ci1MeTlBdJNgsesB9hKUwy3nhrgRy0x8lJs0u2vjJXbq0enLv2AqvfthGfg6v6LCxcijMjYpAWDDVFK25tZUgP1yiSebeq8mUcd0IjduZ00Xm3a2_IpbPyeOqlfsuvtgTBE0PhL5TOWM11Il6RYJTd_siDkIUUfSIpX9We0wVi5KUukGWgU5LFzazGCex5zdVKjV7aac7uyL4BjEcI4tpQel4P6VXV8h3pCjR1OAxA4r0n2YafuHJ2o_38DwIsuTlROR3SW4HLd5cP_-bA-uzdobsSkm30F7pz2_UGY6_Xe8irZGtIY7zC74cDGfZdKFlvl5_vRWS2GYHj14M-mURjRUmxfqG4BxjJMM1WOz4-ra2eRkTzmth0BcqvzSe_CWLGUdkh7ogEuQPpjnAHCAjJucMRIXUp4Dt8ejrSm-ZSmiualpLmOsG99kIPnR8_2hobkGhxfUZ5cgfNCI4w0tH5chL_dXNZrB6a1faINc8JrzilVDuzb2F9WbSfsOzPaSYKJmFHUfsHd6YlsUPW5y7gYQwmzhh9vhZ-ZsqL8WRzUapOtTkBse2UPAODD5uzrDsHvdcanzsX-Unb7ohow=w1680-h817-no);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 25vh;
+  background-color: #222;
+  height: 100vh;   
+}
+
+
+/* About.js styling  */

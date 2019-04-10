@@ -7,15 +7,10 @@ import insta from "./fanpage_images/instagram.png";
 import facebook from "./fanpage_images/facebook.png";
 import twitter from "./fanpage_images/twitter.png";
 
-
-
-
 import Routes from "./routes";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
+  
 
   render() {
     return (
@@ -32,12 +27,10 @@ class App extends Component {
             <div>
               <h1>BURDENEDSTAR 1</h1>
                 <div className="App-tagline">
-                  <div>
                     <p>
                        Gamers don't die, they <span className="App-rage">RAGE</span>{" "}
                        quit!
                     </p>
-                  </div>
                 </div>
             </div>
               <div className="App-social-links">
@@ -66,16 +59,7 @@ class App extends Component {
           </header>
           
         <div className="App-main-container">         
-          <div>
-            <h2 className="App-main-title">BURDENEDSTAR1</h2>
-          </div>
-            <div>
-              <Routes/>
-            </div>
-            <div>
-            <Link to="/testpage"><h1>TEST COMPONENT</h1></Link>
-            </div>
-         
+          <Routes/>
         </div>
       </div>
     );
