@@ -3,17 +3,15 @@ import Swiper from 'react-id-swiper';
 import './About.css';
 
 //temporary picture placeholders... will create database to store pictures..or pull from instgram..or elsewhere
-import smile from './smile.png';
-import banner from './youtube_banner-1.jpg';
-import green from './greenScreen.jpg';
-import scream from './vrscream.jpg';
-import doggo from './zeus.jpg';
+import smile from '../../fanpage_images/smile.png';
+import banner from '../../fanpage_images/youtube_banner-1.jpg';
+import green from '../../fanpage_images/greenScreen.jpg';
+import scream from '../../fanpage_images/vrscream.jpg';
+import doggo from '../../fanpage_images/zeus.jpg';
 
 export default class About extends Component{
 
-        constructor(props){
-            super(props);
-        }
+        
 
     render(){       
         const params = {
